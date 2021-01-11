@@ -9,7 +9,7 @@ int main()
     printf("Enter the number of inputs:");
     scanf("%d",&n);
     c=n;
-    for(i=1;i<n;i++)
+    for(i=1;i<=n;i++)
     {
         for(int j=c;j>c-i;j--)
         {
